@@ -38,9 +38,9 @@ Votre projet est maintenant crée. Toutefois, il s'agit d'un projet vide, qui n'
 
 Pour commencer, jetez un oeil à la colonne de gauche. Vous devriez avoir Android de sélectionné tout en haut, et l'arborescence de vos différents packages en dessous. Faîtes un clic droit sur app > java, et cliquez sur New > Package. Sélectionnez le dossier "../app/src/main/java" et indiquez le nom "com.adstronomic.sdk.android".
 
-<img src="https://raw.githubusercontent.com/Adstronomic/AdstronomicAndroid/master/Read%20Me/https://raw.githubusercontent.com/AnthonyParis/AdstronomicAndroid/master/Read%20Me/3.png" alt="Adstronomic-Android-3" style="zoom:25%;" />
+<img src="https://raw.githubusercontent.com/Adstronomic/AdstronomicAndroid/master/Read%20Me/3.png" alt="Adstronomic-Android-3" style="zoom:25%;" />
 
-<img src="https://raw.githubusercontent.com/Adstronomic/AdstronomicAndroid/master/Read%20Me/https://raw.githubusercontent.com/AnthonyParis/AdstronomicAndroid/master/Read%20Me/4.png" alt="Adstronomic-Android-4" style="zoom:25%;" />
+<img src="https://raw.githubusercontent.com/Adstronomic/AdstronomicAndroid/master/Read%20Me/4.png" alt="Adstronomic-Android-4" style="zoom:25%;" />
 
 Notez que comme j'avais déjà le package com.adstronomic.sdk.android à la création du projet, ces deux packages seront fusionnés dans Android Studio, mais sur votre projet à vous, vous devriez avoir un second package, en dessous de votre package par défaut. Ouvrez maintenant ce second package.
 
@@ -65,7 +65,7 @@ implementation 'com.squareup.picasso:picasso:2.71828'
 
 Enfin, après avoir modifié ce fichier, un bandeau jaune devrait apparaître en haut de l'écran, nous proposant de synchroniser les modifications en cliquant sur "Sync Now", ce que nous allons faire.
 
-<img src="https://raw.githubusercontent.com/Adstronomic/AdstronomicAndroid/master/Read%20Me/https://raw.githubusercontent.com/AnthonyParis/AdstronomicAndroid/master/Read%20Me/6.png" alt="Adstronomic-Android-6" style="zoom:25%;" />
+<img src="https://raw.githubusercontent.com/Adstronomic/AdstronomicAndroid/master/Read%20Me/6.png" alt="Adstronomic-Android-6" style="zoom:25%;" />
 
 Normalement, cette synchronisation devrait supprimer les erreurs présentes dans le SDK.
 

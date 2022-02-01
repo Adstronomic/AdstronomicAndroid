@@ -38,9 +38,9 @@ Your project is now created. However, it is an empty project, which does not inc
 
 To start, take a look at the left column. You should have Android selected at the top, and your package tree below it. Right click on app > java, and click on New > Package. Select the folder "../app/src/main/java" and specify the name "com.adstronomic.sdk.android".
 
-<img src="https://raw.githubusercontent.com/Adstronomic/AdstronomicAndroid/master/Read%20Me/https://raw.githubusercontent.com/AnthonyParis/AdstronomicAndroid/master/Read%20Me/3.png" alt="Adstronomic-Android-3" style="zoom:25%;" />
+<img src="https://raw.githubusercontent.com/Adstronomic/AdstronomicAndroid/master/Read%20Me/3.png" alt="Adstronomic-Android-3" style="zoom:25%;" />
 
-<img src="https://raw.githubusercontent.com/Adstronomic/AdstronomicAndroid/master/Read%20Me/https://raw.githubusercontent.com/AnthonyParis/AdstronomicAndroid/master/Read%20Me/4.png" alt="Adstronomic-Android-4" style="zoom:25%;" />
+<img src="https://raw.githubusercontent.com/Adstronomic/AdstronomicAndroid/master/Read%20Me/4.png" alt="Adstronomic-Android-4" style="zoom:25%;" />
 
 Note that since I already had the com.adstronomic.sdk.android package when I created the project, these two packages will be merged in Android Studio, but on your project, you should have a second package, below your default package. Now open this second package.
 
@@ -65,7 +65,7 @@ implementation 'com.squareup.picasso:picasso:2.71828'
 
 Finally, after modifying this file, a yellow banner should appear at the top of the screen, suggesting us to synchronize the modifications by clicking on "Sync Now", which we will do.
 
-<img src="https://raw.githubusercontent.com/Adstronomic/AdstronomicAndroid/master/Read%20Me/https://raw.githubusercontent.com/AnthonyParis/AdstronomicAndroid/master/Read%20Me/6.png" alt="Adstronomic-Android-6" style="zoom:25%;" />
+<img src="https://raw.githubusercontent.com/Adstronomic/AdstronomicAndroid/master/Read%20Me/6.png" alt="Adstronomic-Android-6" style="zoom:25%;" />
 
 Normally, this synchronization should remove the errors present in the SDK.
 
