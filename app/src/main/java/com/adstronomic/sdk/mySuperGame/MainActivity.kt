@@ -1,8 +1,9 @@
-package com.adstronomic.sdk.android
+package com.adstronomic.sdk.mySuperGame
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import com.adstronomic.sdk.android.Adstronomic
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -42,7 +42,7 @@ To start, take a look at the left column. You should have Android selected at th
 
 <img src="https://raw.githubusercontent.com/Adstronomic/AdstronomicAndroid/master/Read%20Me/4.png" alt="Adstronomic-Android-4" style="zoom:25%;" />
 
-Note that since I already had the com.adstronomic.sdk.android package when I created the project, these two packages will be merged in Android Studio, but on your project, you should have a second package, below your default package. Now open this second package.
+Note that since I already had the com.adstronomic.sdk.android package when I created the project, these two packages will be merged in Android Studio. But on your project, you should have a second package, below your default package. Now open this second package.
 
 We will now need the Adstronomic SDK sources. To do this go to the root of this repository, open the app > src > main > java > com > adstronomic > sdk > android folder, and copy its contents, except for the MainActivity file ! Go back to your Android Studio project, and copy these files into the com.adstronomic.sdk.android package we just created.
 
@@ -59,7 +59,7 @@ Again, on your own project, you will normally have a separate package for the SD
 Now we'll tackle the external libraries ! To do this, let's open the file "Gradle Scripts" > build.gradle. We normally have two build.gradle files, and we will modify the second one, the one that defines the modules used. We have to find the dependencies block, and insert the following lines :
 
 ```
-implementation 'com.android.volley:volley:1.1.1'
+implementation 'com.android.volley:volley:1.2.1'
 implementation 'com.squareup.picasso:picasso:2.71828'
 ```
 
@@ -177,7 +177,7 @@ class MainActivity : AppCompatActivity() {
 }
 ```
 
-And when launching our AVD, our Banner Ad should appear at the bottom of the screen :
+And by launching our AVD, and clicking on our button, our Banner Ad should appear at the bottom of the screen :
 
 <img src="https://raw.githubusercontent.com/Adstronomic/AdstronomicAndroid/master/Read%20Me/9.png" alt="Adstronomic-Android-9" style="zoom:25%;" />
 

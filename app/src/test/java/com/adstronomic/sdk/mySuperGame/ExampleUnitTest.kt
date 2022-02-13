@@ -1,4 +1,4 @@
-package com.adstronomic.sdk.android
+package com.adstronomic.sdk.mySuperGame
 
 import org.junit.Test
 

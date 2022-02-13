@@ -42,7 +42,7 @@ Pour commencer, jetez un oeil à la colonne de gauche. Vous devriez avoir Androi
 
 <img src="https://raw.githubusercontent.com/Adstronomic/AdstronomicAndroid/master/Read%20Me/4.png" alt="Adstronomic-Android-4" style="zoom:25%;" />
 
-Notez que comme j'avais déjà le package com.adstronomic.sdk.android à la création du projet, ces deux packages seront fusionnés dans Android Studio, mais sur votre projet à vous, vous devriez avoir un second package, en dessous de votre package par défaut. Ouvrez maintenant ce second package.
+Notez que comme j'avais déjà le package com.adstronomic.sdk.android à la création du projet, ces deux packages seront fusionnés dans Android Studio. Mais sur votre projet à vous, vous devriez avoir un second package, en dessous de votre package par défaut. Ouvrez maintenant ce second package.
 
 Nous allons maintenant avoir besoin des sources du SDK Adstronomic. Pour cela allez à la racine de ce dépôt, ouvrez le dossier app > src > main > java > com > adstronomic > sdk > android, et copiez son contenu, à l'exception du fichier MainActivity ! Retournez sur votre projet Android Studio, et copiez ces fichiers dans le package com.adstronomic.sdk.android que nous venons de créer.
 
@@ -59,7 +59,7 @@ Encore une fois, sur votre propre projet, vous aurez normalement un package dist
 Maintenant, nous allons nous attaquer aux librairies externes ! Pour cela, ouvrons le fichier "Gradle Scripts" > build.gradle. Nous avons normalement deux fichiers build.gradle, et nous allons modifier le second, celui qui définit les modules utilisés. Nous devons y trouver le bloc dependencies, et y insérer les lignes suivantes :
 
 ```
-implementation 'com.android.volley:volley:1.1.1'
+implementation 'com.android.volley:volley:1.2.1'
 implementation 'com.squareup.picasso:picasso:2.71828'
 ```
 
@@ -177,7 +177,7 @@ class MainActivity : AppCompatActivity() {
 }
 ```
 
-Et en lançant notre AVD, notre Banner Ad devrait apparaître en bas de l'écran :
+Et en lançant notre AVD, et en cliquant sur notre bouton, notre Banner Ad devrait apparaître en bas de l'écran :
 
 <img src="https://raw.githubusercontent.com/Adstronomic/AdstronomicAndroid/master/Read%20Me/9.png" alt="Adstronomic-Android-9" style="zoom:25%;" />
 
