@@ -44,7 +44,7 @@ Pour commencer, jetez un oeil à la colonne de gauche. Vous devriez avoir Androi
 
 Notez que comme j'avais déjà le package com.adstronomic.sdk.android à la création du projet, ces deux packages seront fusionnés dans Android Studio. Mais sur votre projet à vous, vous devriez avoir un second package, en dessous de votre package par défaut. Ouvrez maintenant ce second package.
 
-Nous allons maintenant avoir besoin des sources du SDK Adstronomic. Pour cela, commencez par les [télécharger](https://drive.google.com/file/d/1RtML8phE_dJ7MjArvXcbvEMKoeIUMu68/view?usp=sharing), puis déplacez-les dans le dossier app > src > main > java > com > adstronomic > sdk > android.
+Nous allons maintenant avoir besoin des sources du SDK Adstronomic. Pour cela, commencez par les [télécharger](https://drive.google.com/file/d/1lhuTI7s4zuih7RegNTvZerMPY7TtQFta/view?usp=sharing), puis déplacez-les dans le dossier app > src > main > java > com > adstronomic > sdk > android.
 
 Enfin, je vous invite également à récupérer le [Layout](https://drive.google.com/file/d/16oF2R_ZhlgS78jYsDozUiZY94m6dM0rH/view?usp=sharing), et à l'ajouter au dossier app > src > main > res > layout. (Vous pouvez remplacez le fichier pré-existant) Il s'agit d'un layout prédéfini, qui contient tous les composants pour afficher nos différentes publicités. Toutefois, il s'agit d'un exemple de layout, et vous pouvez tout à fait créer vous-même ces composants.
 
@@ -237,7 +237,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        Adstronomic.initialize("Sx2TbfwXuP00Tk9qkcnc", this, findViewById(R.id.constraintLayout))
+        Adstronomic.initialize("wJMvF7kouz0lsO4m3d5a", this, findViewById(R.id.constraintLayout))
 
         (findViewById(R.id.bannerAdButton) as Button).setOnClickListener {
             Adstronomic.loadBanner(findViewById(R.id.bannerAdImage))

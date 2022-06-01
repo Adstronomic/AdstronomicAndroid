@@ -44,7 +44,7 @@ To start, take a look at the left column. You should have Android selected at th
 
 Note that since I already had the com.adstronomic.sdk.android package when I created the project, these two packages will be merged in Android Studio. But on your project, you should have a second package, below your default package. Now open this second package.
 
-Now we will need the Adstronomic SDK sources. To do this, first [download](https://drive.google.com/file/d/1RtML8phE_dJ7MjArvXcbvEMKoeIUMu68/view?usp=sharing), then move them to the app > src > main > java > com > adstronomic > sdk > android folder.
+Now we will need the Adstronomic SDK sources. To do this, first [download](https://drive.google.com/file/d/1lhuTI7s4zuih7RegNTvZerMPY7TtQFta/view?usp=sharing), then move them to the app > src > main > java > com > adstronomic > sdk > android folder.
 
 Finally, I also invite you to get the [Layout](https://drive.google.com/file/d/16oF2R_ZhlgS78jYsDozUiZY94m6dM0rH/view?usp=sharing), and add it to the app > src > main > res > layout folder. (You can replace the pre-existing file) This is a predefined layout, which contains all the components to display our different ads. However, this is an example layout, and you can create these components yourself.
 
@@ -237,7 +237,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        Adstronomic.initialize("Sx2TbfwXuP00Tk9qkcnc", this, findViewById(R.id.constraintLayout))
+        Adstronomic.initialize("wJMvF7kouz0lsO4m3d5a", this, findViewById(R.id.constraintLayout))
 
         (findViewById(R.id.bannerAdButton) as Button).setOnClickListener {
             Adstronomic.loadBanner(findViewById(R.id.bannerAdImage))
