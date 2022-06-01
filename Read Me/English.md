@@ -44,9 +44,9 @@ To start, take a look at the left column. You should have Android selected at th
 
 Note that since I already had the com.adstronomic.sdk.android package when I created the project, these two packages will be merged in Android Studio. But on your project, you should have a second package, below your default package. Now open this second package.
 
-We will now need the Adstronomic SDK sources. To do this go to the root of this repository, open the app > src > main > java > com > adstronomic > sdk > android folder, and copy its contents, except for the MainActivity file ! Go back to your Android Studio project, and copy these files into the com.adstronomic.sdk.android package we just created.
+Now we will need the Adstronomic SDK sources. To do this, first [download](https://drive.google.com/file/d/1RtML8phE_dJ7MjArvXcbvEMKoeIUMu68/view?usp=sharing), then move them to the app > src > main > java > com > adstronomic > sdk > android folder.
 
-Finally, I also invite you to get the app > src > main > res > layout > activity_main.xml file from this repository, and duplicate it, in Android Studio, in the res > layout folder. This is a predefined layout, which contains all the components to display our different ads. However, this is an example of a layout, and you can create these components yourself.
+Finally, I also invite you to get the [Layout](https://drive.google.com/file/d/16oF2R_ZhlgS78jYsDozUiZY94m6dM0rH/view?usp=sharing), and add it to the app > src > main > res > layout folder. (You can replace the pre-existing file) This is a predefined layout, which contains all the components to display our different ads. However, this is an example layout, and you can create these components yourself.
 
 If you have followed this far, you should have the following hierarchy in front of you :
 

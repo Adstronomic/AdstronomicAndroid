@@ -44,9 +44,9 @@ Pour commencer, jetez un oeil à la colonne de gauche. Vous devriez avoir Androi
 
 Notez que comme j'avais déjà le package com.adstronomic.sdk.android à la création du projet, ces deux packages seront fusionnés dans Android Studio. Mais sur votre projet à vous, vous devriez avoir un second package, en dessous de votre package par défaut. Ouvrez maintenant ce second package.
 
-Nous allons maintenant avoir besoin des sources du SDK Adstronomic. Pour cela allez à la racine de ce dépôt, ouvrez le dossier app > src > main > java > com > adstronomic > sdk > android, et copiez son contenu, à l'exception du fichier MainActivity ! Retournez sur votre projet Android Studio, et copiez ces fichiers dans le package com.adstronomic.sdk.android que nous venons de créer.
+Nous allons maintenant avoir besoin des sources du SDK Adstronomic. Pour cela, commencez par les [télécharger](https://drive.google.com/file/d/1RtML8phE_dJ7MjArvXcbvEMKoeIUMu68/view?usp=sharing), puis déplacez-les dans le dossier app > src > main > java > com > adstronomic > sdk > android.
 
-Enfin, je vous invite également à récupérer le fichier app > src > main > res > layout > activity_main.xml de ce dépôt, et à le dupliquer, dans Android Studio, dans le dossier res > layout. Il s'agit d'un layout prédéfini, qui contient tous les composants pour afficher nos différentes publicités. Toutefois, il s'agit d'un exemple de layout, et vous pouvez tout à fait créer vous-même ces composants.
+Enfin, je vous invite également à récupérer le [Layout](https://drive.google.com/file/d/16oF2R_ZhlgS78jYsDozUiZY94m6dM0rH/view?usp=sharing), et à l'ajouter au dossier app > src > main > res > layout. (Vous pouvez remplacez le fichier pré-existant) Il s'agit d'un layout prédéfini, qui contient tous les composants pour afficher nos différentes publicités. Toutefois, il s'agit d'un exemple de layout, et vous pouvez tout à fait créer vous-même ces composants.
 
 Si vous avez bien suivi jusque là, vous devriez avoir la hiérarchie suivante sous les yeux :
 

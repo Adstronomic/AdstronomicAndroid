@@ -145,9 +145,11 @@ public class Adstronomic {
                     }
                 )
 
-                this.layout?.addView(close)
-                close.layoutParams.width = 120
-                close.layoutParams.height = 120
+                if(this.layout != null && close != null) {
+                    this.layout?.addView(close)
+                    close.layoutParams.width = 120
+                    close.layoutParams.height = 120
+                }
 
                 this.fetchInterstitial()
             } else Log.i("Adstronomic", "No Interstitial Ad")
@@ -224,9 +226,11 @@ public class Adstronomic {
                     }
                 )
 
-                this.layout?.addView(close)
-                close.layoutParams.width = 120
-                close.layoutParams.height = 120
+                if(this.layout != null && close != null) {
+                    this.layout?.addView(close)
+                    close.layoutParams.width = 120
+                    close.layoutParams.height = 120
+                }
 
                 this.fetchRewarded()
             } else Log.i("Adstronomic", "No Rewarded Ad")
