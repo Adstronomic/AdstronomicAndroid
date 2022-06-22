@@ -1,4 +1,4 @@
-## [**🇫🇷 VERSION FRANÇAISE DISPONIBLE 🇫🇷**](https://github.com/Adstronomic/AdstronomicAndroid/blob/master/Read%20Me/French.md)
+## [**🇫🇷 VERSION FRANÇAISE DISPONIBLE 🇫🇷**](https://flrn.gitbook.io/adstronomic/adstronomic-android/adstronomic-guide-dinstallation-android)
 
 
 
